@@ -1,0 +1,16 @@
+{
+  "name": "prototipo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.7.5",
+    "bulma-extensions": "^6.2.7",
+    "gulp": "^3.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-watch": "^5.0.1"
+  },
+  "scripts": {
+    "sass": "gulp watch"
+  }
+}
