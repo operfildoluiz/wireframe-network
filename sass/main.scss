@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://use.typekit.net/ilk7sdy.css');
+@import url('https://use.typekit.net/twf3caq.css');
 
 // Set your brand colors
 $red: #EE3D25;
@@ -11,7 +12,7 @@ $divider-background-color: $red;
 $divider-color: $blue;
 $divider-font-size: 1.1em;
 
-$family-sans-serif: "Montserrat", sans-serif;
+$family-sans-serif: "proxima-nova", sans-serif;
 $grey-dark: $brown;
 $grey-light: $beige-light;
 $primary: $red;
@@ -25,18 +26,18 @@ $navbar-height: 4rem;
 
 .has-image-centered { margin-left: auto; margin-right: auto; margin-bottom: 1em }
 .has-image-bordered { img { border: 2px solid white; border-radius: 50%; } }
+.has-image-circle { img { border: 2px solid white; border-radius: 50%; background: #fff; margin: 5pt; } }
 
 .in-red  { color: $red !important; }
 .in-blue  { color: $blue !important; }
 .in-hero-blue  { background-color: $blue !important; }
 .in-has-bottom-margin { margin-bottom: 1em; }
 .in-has-bottom-db-margin { margin-bottom: 2em; }
-.in-pro { 
+.in-pro { img { filter: grayscale(50); } }
+.in-essones { font-family: "essonnes-display",sans-serif !important; }
+.in-featured-box { border: 2px solid $red; border-radius: 4px; }
 
-    img {
-        filter: grayscale(50);
-    }
-}
+
 .is-vcentered {
     display: flex;
     flex-wrap: wrap;
@@ -49,3 +50,4 @@ $navbar-height: 4rem;
 @import 'node_modules/bulma-extensions/src/sass/index.sass';
 
 .debug { border: 1px solid red !important; }
+button { white-space: normal !important;}
